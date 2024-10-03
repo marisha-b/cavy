@@ -83,7 +83,7 @@ img {
 
 @media(max-width: 800px){
 .container img {
-        width: 3%;
+        width: 2%;
     }
     .container img:hover {
             width: 70%;
