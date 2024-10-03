@@ -68,7 +68,6 @@ img {
 }
 
     .container img {
-
         margin: 0 0;
         border: solid;
         border-width: 5px;
@@ -81,6 +80,47 @@ img {
 
 .container img:hover{
     width: 25%;   
+}
+
+@media{
+    .container img {
+        margin: 0 0;
+        border: solid;
+        border-width: 5px;
+        border-color: #368abf;
+        width: 7%;
+        height: 100%;
+        object-fit: cover;
+        transition: all ease-in-out 0.5s;
+    }
+
+        .container img:hover {
+            width: 50%;
+        }
+
+    p, li {
+    font-size: 30px;
+    color: #54182a;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #3b0618;
+    font-size: 40px;
+    background-color: #7c9df7;
+    margin-top: 40px;
+    text-align: center;
+    padding:10px;
+}
+
+h3, h4 {
+    color: #733b21;
+    font-size: 35px;
+    background-color: #edbd5c;
+    margin-top: 40px;
+    text-align: center;
+    padding: 5px;
+}
 }
 
 
