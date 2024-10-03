@@ -63,7 +63,6 @@ img {
     justify-content: center;
     display: flex;
     height: 450px;
-
 }
 
     .container img {
@@ -82,8 +81,12 @@ img {
 }
 
 @media(max-width: 800px){
+.container {
+    height: 500px;
+}
+    
 .container img {
-        width: 2%;
+        width: 0.5%;
     }
     .container img:hover {
             width: 70%;
