@@ -81,17 +81,6 @@ img {
 }
 
 @media(max-width: 800px){
-.container {
-    height: 500px;
-}
-    
-.container img {
-        width: 0.5%;
-    }
-    .container img:hover {
-            width: 70%;
-        }
-
 p, li {
     font-size: 35px;
 }
