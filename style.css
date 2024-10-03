@@ -82,14 +82,14 @@ img {
 }
 
 @media(max-width: 800px){
-    .container img {
-        width: 7%;
+.container img {
+        width: 5%;
     }
-        .container img:hover {
+    .container img:hover {
             width: 50%;
         }
 
-    p, li {
+p, li {
     font-size: 35px;
 }
 
