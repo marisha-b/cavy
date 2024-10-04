@@ -92,7 +92,7 @@ img {
         }
 
             .container img:hover {
-                height: 50%;
+                height: 30%;
                 width: 100%;
             }
 }
