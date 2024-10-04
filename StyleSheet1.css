@@ -1,0 +1,111 @@
+﻿body {
+    background-image: url(https://img.freepik.com/premium-vector/pattern-of-cats-paw-prints-and-balls-of-yarn-print-in-pastel-colors-with-funny-animals-pets-drawing-by-hand-seamless-pattern-vector-illustration_528104-2147.jpg);
+    background-attachment: fixed;
+}
+
+div {
+    background-color: #e4eaf5;
+    width: 95%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: solid;
+    border-color: #e4eaf5;
+    border-radius: 60px;
+    color: #4f061c;
+    margin-top: 20px;
+}
+
+p, li {
+    font-size: 23px;
+    color: #54182a;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #3b0618;
+    font-size: 30px;
+    background-color: #7c9df7;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+h3, h4 {
+    color: #733b21;
+    font-size: 25px;
+    background-color: #edbd5c;
+    margin-top: 40px;
+    text-align: center;
+    padding: 5px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.container {
+    background: none;
+    width: 100%;
+    position: relative;
+    left: 0;
+    transform: none;
+    border: none;
+    color: none;
+    justify-content: center;
+    display: flex;
+    height: 450px;
+}
+
+    .container img {
+        margin: 0 0;
+        border: solid;
+        border-width: 5px;
+        border-color: #368abf;
+        width: 10%;
+        height: 100%;
+        object-fit: cover;
+        transition: all ease-in-out 0.5s;
+    }
+
+        .container img:hover {
+            width: 25%;
+        }
+
+@media (max-width: 900px) {
+
+    p, li {
+        font-size: 30px;
+    }
+
+    h1, h2 {
+        font-size: 40px;
+    }
+
+    h3, h4 {
+        font-size: 35px;
+    }
+
+    .container {
+        position: relative;
+        display: block;
+        height: 600px;
+        z-index: 1;
+    }
+
+        .container img {
+            margin: 0 auto;
+            width: 100%;
+            height: 15%;
+            object-fit: cover;
+            transition: all ease-in-out 0.5s;
+        }
+
+            .container img:hover {
+                height: 100%;
+                width: 100%;
+            }
+}
