@@ -1,9 +1,7 @@
-﻿
 body {
     background-image: url(https://img.freepik.com/premium-vector/pattern-of-cats-paw-prints-and-balls-of-yarn-print-in-pastel-colors-with-funny-animals-pets-drawing-by-hand-seamless-pattern-vector-illustration_528104-2147.jpg);
     background-attachment: fixed;
 }
-
 
 div {
     background-color: #e4eaf5;
@@ -19,13 +17,11 @@ div {
     margin-top: 20px;
 }
 
-
 p, li {
     font-size: 23px;
     color: #54182a;
     margin: 20px;
 }
-
 
 h1, h2 {
     color: #3b0618;
@@ -44,7 +40,6 @@ h3, h4 {
     text-align: center;
     padding: 5px;
 }
-
 
 img {
     display: block;
@@ -92,6 +87,26 @@ h1, h2 {
 h3, h4 {
     font-size: 40px;
 }
+
+    .container {
+        position: relative;
+        display: block;
+        height: 600px;
+        z-index: 1;
+    }
+
+        .container img {
+            margin: 0 auto;
+            width: 100%;
+            height: 15%;
+            object-fit: cover;
+            transition: all ease-in-out 0.5s;
+        }
+
+            .container img:hover {
+                height: 100%;
+                width: 100%;
+            }
 }
 
 
