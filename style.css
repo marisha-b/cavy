@@ -75,7 +75,7 @@ img {
             width: 25%;
         }
 
-@media screen and (max-width: 900px) {
+@media all (max-width: 900px) {
 
     p, li {
         font-size: 30px;
