@@ -75,7 +75,7 @@ img {
     width: 25%;   
 }
 
-@media handheld and (max-width: 900px){
+@media handheld{
 p, li {
     font-size: 35px;
 }
