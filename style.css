@@ -74,7 +74,7 @@ img {
 .container img:hover{
     width: 25%;   
 }
-@media handheld and (max-width: 900px){
+@media (max-width: 900px){
 
     p, li {
         font-size: 30px;
